@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>spotify</title>
+</head>
+
+
+<body>
+
+
+    <div class="nav">
+
+        <div class="one">
+
+            <img class="ander icon " src="spotify.svg" alt="spotify" sizes="" srcset="">
+
+            <div class=" ander  home">
+                <img class="img" src="home.svg" alt="home" sizes="" srcset="">
+            </div>
+
+            <!--<div class="ander search">-->
+                <!--<img id="searchIcon" src="search.svg" alt="Search" style="cursor:pointer;width:30px;" >-->
+
+                <!-- Search Bar (hidden initially) -->
+            <div id="searchBar" class="ander">
+                <input type="text" id="artistInput" placeholder="Enter artist name">
+                <img id="searchIcon"src="search.svg" alt="Search" >
+            </div>
+            <!--</div>-->
+
+        </div>
+        <div class="two">
+            <div class="ander">premium</div>
+            <div class="ander">Support</div>
+            <div class="ander">Download</div>
+            <!--<div> class="ander">-->
+            <div class="down"></div>
+
+        </div>
+        <div class="three">
+
+            <div class="ander install">
+                <img src="install.svg" alt="" srcset="">Install App</ div>
+                <div class="ander b">
+                    <button value="sign up">sign up </button>
+                </div>
+                <div class="ander b">
+                    <button value="sign up">login </button>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="container">
+        <div class="left">
+            <div class="library">
+                <ul class="libul">
+
+                    <li class=" lib">
+                        <img src="library.svg" alt="" class="libraryimg img">
+                    </li>
+
+                    <li>
+                        <div class="libraryli">
+                            Your Library
+                            <div class=" plus">
+                                <img class="img" src="plus.svg" alt="">
+                            </div>
+
+                            <!--<li>list1</li>
+                        </ul>-->
+                        </div>
+                    </li>
+
+
+
+                    <!--<li class="plus">
+
+                    <img src="plus.svg" alt="">
+
+                </li>-->
+                </ul>
+            </div>
+
+
+
+
+
+            <div class="middle">
+                <h4>
+                    Create your first
+                    playlist
+                </h4>
+                <h6>it's easy we'll help you</h6>
+                <button class="create">create playlist</button>
+
+            </div>
+
+            <div class="last">
+                <ul class="lastul">
+                    <li class="listli">Legal</li>
+                    <li class="listli">SafePrivacyCenter
+                    <li>
+                    <li class="listli">PrivacyPolicy</li>
+                    <li class="listli">Cookies</li>
+                    <li class="listli">AboutAds</li>
+                    <li class="listli">Accesebility</li>
+                </ul>
+                <p>cookies</p>
+            </div>
+        </div>
+
+
+        <div class="right">
+            <!--<span class="headright">-->
+            <ul class="headright">
+                <li class="rightli playlist">Search artist & Songs</li>
+                <li class="rightli ">show all</li>
+            </ul>
+            <!--</span>-->
+            <div class="boxes" id="tracksContainer">
+
+                <!--<div class="box singles">
+                <div class="boximg">
+                    <img src="pritam.jpeg" alt="">
+                </div>
+                <a href="http:/  ">pritam</a>
+                <p2>Artist</p2>
+            </div>-->
+              
+            </div>
+
+
+
+            <h3>
+                popular album & singles
+            </h3>
+            <div class="boxes track">
+
+                <div class="box singles">
+                    <div class="boximg">
+                        <img src="pritam.jpeg" alt="">
+
+                    </div>
+
+                    <a href="http:/  ">pritam</a>
+                    <p2>Artist</p2>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+        <bottom>
+            <div class="custom-player">
+                <button id="playBtn"><img id="playIcon" src="play.svg" alt="play"> </button>
+                <span id="time">0:00 / 0:00</span>
+                <input type="range" id="seekBar" value="0" step="1">
+            </div>
+
+            <audio id="audioPlayer"></audio>
+        </bottom>
+    </div>
+    <script src="script.js"></script>
+    <script src="server.js"></script>
+</body>
+
+</html>

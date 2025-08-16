@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\green-play-button-icon.svg" />
+    <None Include="wwwroot\home.svg" />
+    <None Include="wwwroot\index.html" />
+    <None Include="wwwroot\index.js" />
+    <None Include="wwwroot\install.svg" />
+    <None Include="wwwroot\library.svg" />
+    <None Include="wwwroot\play.svg" />
+    <None Include="wwwroot\plus.svg" />
+    <None Include="wwwroot\pritam.jpeg" />
+    <None Include="wwwroot\script.js" />
+    <None Include="wwwroot\search.svg" />
+    <None Include="wwwroot\server.js" />
+    <None Include="wwwroot\songs\dance with this girl.mp3" />
+    <None Include="wwwroot\songs\dibar dilbar.mp3" />
+    <None Include="wwwroot\songs\dil chain kahin na paye.mp3" />
+    <None Include="wwwroot\songs\folder.png" />
+    <None Include="wwwroot\songs\larki annkh mary.mp3" />
+    <None Include="wwwroot\songs\mery rashky kamr.mp3" />
+    <None Include="wwwroot\songs\tery jany ka gham.mp3" />
+    <None Include="wwwroot\spotify.svg" />
+    <None Include="wwwroot\style.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\spotify\" />
+  </ItemGroup>
+
+</Project>
